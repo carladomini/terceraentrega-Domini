@@ -1,0 +1,19 @@
+ $bg: aqua;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background: rgb(111,109,153);
+background: linear-gradient(90deg, rgba(111,109,153,1) 0%, rgba(26,117,128,1) 35%, rgba(247,247,247,1) 100%);
+}
+
+@import "header";
+@import "main";
+@import "footer";
+
+
+
