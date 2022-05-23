@@ -1,0 +1,39 @@
+/*pantalla mobile*/
+@media(max-width: 420px){
+    .fotopri h1{
+        font-size: 30px;
+        top: 25%;
+        left: 60%;
+        transition: none;
+    }
+    h1:hover{
+        font-size: 30px;
+        color: #D3D3D3;
+    }
+        .fotopri h3 {
+            font-size: 15px;
+            top: 30%;
+            left: 25%;
+            width: 50%; 
+        }
+
+    h3{
+        font-size: 25px;
+    }
+
+    p{
+        font-size: 15px;
+        margin: 20px;
+    }
+
+    .videos{
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .map{
+        width: 250px;
+        height: 350px;
+    }  
+}
